@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.display {
+  background-color: rgb(37, 37, 43);
+  padding: 15px;
+  color: white;
+}
+.display h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 75px;
+}
+.choice {
+  height: 200px;
+  width: 200px;
+}
+img {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.choice:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 100px;
+  margin-top: 25px;
+}
+#user {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#comp {
+  margin-left: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#userPic,
+#compPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid white 5px;
+}
+#userPic img,
+#compPic img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#userMsg,
+#compMsg {
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.score {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#userScore,
+#compScore {
+  font-size: 45px;
+}
+.score p {
+  font-size: 20px;
+}
+.msgbox {
+  text-align: center;
+  margin-top: 45px;
+}
+.msg {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: rgb(37, 37, 43);
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
